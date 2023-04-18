@@ -12,7 +12,7 @@ escolha=$(whiptail --title "Menu de Gestão do Repetidor TETRA" --menu " >> Faç
 2 " Editar a configuração da tetra-contrib (TetraLogic.conf) " \
 3 " Editar o ficheiro de utilizadores CT (tetra_users.json) " \
 4 " Actualizadar o ficheiro de utilizadores CT (tetra_users.json) " \
-5 " Configurações audio (alsamixer) "  8
+5 " Configurações audio (alsamixer) " \
 6 " Actualizadar svxlink + tetra-contrib \e[5m\e[101m(RISCO DE INCOMPATIBILIDADES) " \
 7 " Parar svxlink " \
 8 " Reboot svxlink " \
