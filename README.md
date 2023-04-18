@@ -1,7 +1,28 @@
 # Menu interactivo para controlar o SVXLink
 
-**> Instruções para versão "tetra-contrib"**
+Simples menu para controlar mais fácilmente os repetidores e links baseados no SVXLink.
 
+Foram feitas duas versões diferentes: Uma para sistemas analógicos e uma versão especial para sistemas TETRA (tetra-contrib)
+
+
+**➜ Versão "tetra-contrib"**
+
+✦ Funcionalidades - 
+ - Controlar a RPi:
+      - [x] Acesso ao menu configurações (raspi-config)
+      - [x] Reiniciar
+      - [ ] Actualizar 
+      - [x] Acesso ao alsamixer
+ - Ações específicas ao SVXLink: 
+      - [x] Editar ficheiro "svxlink.conf" 
+      - [x] Editar ficheiro "TetraLogic.conf" 
+      - [x] Editar ficheiro "tetra_users.json" 
+      - [x] Actualizar automaticamente o ficheiro "tetra_users.json"  
+      - [x] Actualizar SVXLink (com a versão tetra-contrib)
+      - [x] Parar & Reiniciar o processo
+
+
+#### Instalação 
 #### 1 - Obter o menu:
 ```
 cd
