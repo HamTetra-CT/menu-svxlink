@@ -51,7 +51,7 @@ sudo cp /tmp/tetra_users.json /etc/svxlink/tetra_users.json
 sudo rm /tmp/tetra_users.json
 sudo systemctl start svxlink;;
 5)
-sudo alsamixer
+sudo alsamixer;;
 6)
 systemctl stop svxlink
 cd /home/pi/svxlink/src/build/
@@ -69,7 +69,7 @@ sudo raspi-config;;
 10)
 sudo reboot;;
 11)
-exit 0;;
+exit 0
 
 esac
 
