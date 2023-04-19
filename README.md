@@ -1,11 +1,12 @@
 # Menu interactivo para controlar o SVXLink
 
-Simples menu para controlar mais fácilmente os repetidores e links baseados no SVXLink.
+### Simples menu para controlar mais fácilmente os repetidores e links baseados no SVXLink.
 
-Foram feitas duas versões diferentes: Uma para sistemas analógicos e uma versão especial para sistemas TETRA (tetra-contrib)
+##### Foram feitas duas versões diferentes: Uma para sistemas analógicos e uma versão especial para sistemas TETRA (tetra-contrib)
 
 
 **➜ Versão "tetra-contrib"**
+------
 
 ✦ Funcionalidades - 
  - Controlar a RPi:
@@ -44,6 +45,7 @@ sudo chmod +x /home/pi/menutetra.sh
 
 
 **➜ Versão "convencional" (sistemas analógicos)**
+------
 
 ✦ Funcionalidades - 
  - Controlar a RPi:
