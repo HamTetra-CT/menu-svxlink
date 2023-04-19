@@ -7,12 +7,12 @@
 
 while : ; do
 
-escolha=$(whiptail --title "Menu de Gestão do Repetidor" --menu " >> Faça a sua escolha: " 30 60 15 \
+escolha=$(whiptail --title "Menu de Gestão do Repetidor" --menu " >> Faça a sua escolha: " 25 70 10 \
 1 " Editar a configuração do repetidor (svxlink.conf) " \
 2 " Editar RepertearLogic.tcl " \
 3 " Editar Logic.tcl " \
 4 " Configurações audio (alsamixer) " \
-5 " Actualizadar svxlink \e[5m\e[101m(RISCO DE INCOMPATIBILIDADES) " \
+5 " Actualizadar svxlink /!\RISCO DE INCOMPATIBILIDADES/!\ " \
 6 " Parar svxlink " \
 7 " Reboot svxlink " \
 8 " Configurações da Raspberry Pi (raspi-config) " \
