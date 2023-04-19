@@ -40,7 +40,7 @@ sudo chmod +x /home/pi/menutetra.sh
 ```
 #### 3 - Terminado! Teste, agora, o menu com o seguinte comando:
 ```
-./home/pi/menutetra.sh
+./menutetra.sh
 ```
 
 
@@ -78,5 +78,5 @@ sudo chmod +x /home/pi/menufm.sh
 ```
 #### 3 - Terminado! Teste, agora, o menu com o seguinte comando:
 ```
-./home/pi/menufm.sh
+./menufm.sh
 ```
