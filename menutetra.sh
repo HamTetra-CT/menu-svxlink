@@ -7,13 +7,13 @@
 
 while : ; do
 
-escolha=$(whiptail --title "Menu de Gestão do Repetidor TETRA" --menu " >> Faça a sua escolha: " 30 60 15 \
+escolha=$(whiptail --title "Menu de Gestão do Repetidor TETRA" --menu " >> Faça a sua escolha: " 25 80 11 \
 1 " Editar a configuração do repetidor (svxlink.conf) " \
 2 " Editar a configuração da tetra-contrib (TetraLogic.conf) " \
 3 " Editar o ficheiro de utilizadores CT (tetra_users.json) " \
 4 " Actualizadar o ficheiro de utilizadores CT (tetra_users.json) " \
 5 " Configurações audio (alsamixer) " \
-6 " Actualizadar svxlink + tetra-contrib \e[5m\e[101m(RISCO DE INCOMPATIBILIDADES) " \
+6 " Actualizadar svxlink + tetra-contrib ⚠️(RISCO DE INCOMPATIBILIDADES)⚠️ " \
 7 " Parar svxlink " \
 8 " Reboot svxlink " \
 9 " Configurações da Raspberry Pi (raspi-config) " \
