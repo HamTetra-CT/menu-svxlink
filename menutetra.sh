@@ -46,7 +46,6 @@ sudo nano /etc/svxlink/tetra_users.json;;
 4)
 sudo systemctl stop svxlink
 wget -q https://raw.githubusercontent.com/HamTetra-CT/users_update/main/tetra_users.json -O /tmp/tetra_users.json
-if ! cmp -s /tmp/tetra_users.json /etc/svxlink/tetra_users.json; then
 sudo cp /tmp/tetra_users.json /etc/svxlink/tetra_users.json
 sudo rm /tmp/tetra_users.json
 sudo systemctl start svxlink;;
