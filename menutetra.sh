@@ -13,7 +13,7 @@ escolha=$(whiptail --title "Menu de Gestão do Repetidor TETRA" --menu " >> Faç
 3 " Editar o ficheiro de utilizadores CT (tetra_users.json) " \
 4 " Actualizadar o ficheiro de utilizadores CT (tetra_users.json) " \
 5 " Configurações audio (alsamixer) " \
-6 " Actualizadar svxlink + tetra-contrib ⚠️(RISCO DE INCOMPATIBILIDADES)⚠️ " \
+6 " Actualizadar svxlink + tetra-contrib /!\RISCO DE INCOMPATIBILIDADES/!\ " \
 7 " Parar svxlink " \
 8 " Reboot svxlink " \
 9 " Configurações da Raspberry Pi (raspi-config) " \
