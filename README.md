@@ -1,14 +1,16 @@
 # Menu interactivo para controlar o SVXLink
 
+![screenshot](https://snipboard.io/uVF9hl.jpg)
+
 ### Simples menu para controlar mais fácilmente os repetidores e links baseados no SVXLink.
 
-##### Foram feitas duas versões diferentes: Uma para sistemas analógicos e uma versão especial para sistemas TETRA (tetra-contrib)
+##### Foram feitas duas versões diferentes: uma versão especial para sistemas TETRA (tetra-contrib) e outra para sistemas analógicos.
 
+---
 
-**➜ Versão "tetra-contrib"**
-------
+## ➜ Versão "tetra-contrib"
 
-✦ Funcionalidades - 
+### ⚡ Funcionalidades
  - Controlar a RPi:
       - [x] Acesso ao menu configurações (raspi-config)
       - [x] Reiniciar
@@ -23,7 +25,7 @@
       - [x] Parar & Reiniciar o processo
 
 
-#### Instalação 
+### ⚙️ Instalação 
 #### 1 - Obter o menu:
 ```
 cd
@@ -44,10 +46,9 @@ sudo chmod +x /home/pi/menutetra.sh
 ```
 
 
-**➜ Versão "convencional" (sistemas analógicos)**
-------
+## ➜ Versão "convencional" (sistemas analógicos)
 
-✦ Funcionalidades - 
+### ⚡ Funcionalidades
  - Controlar a RPi:
       - [x] Acesso ao menu configurações (raspi-config)
       - [x] Reiniciar
@@ -61,7 +62,7 @@ sudo chmod +x /home/pi/menutetra.sh
       - [x] Parar & Reiniciar o processo
 
 
-#### Instalação 
+### ⚙️ Instalação 
 #### 1 - Obter o menu:
 ```
 cd
@@ -76,7 +77,7 @@ wget https://raw.githubusercontent.com/HamTetra-CT/menu-svxlink/main/menufm.sh
 ```
 sudo chmod +x /home/pi/menufm.sh
 ```
-#### 3 - Terminado! Teste, agora, o menu com o seguinte comando:
+#### 3 - ✅ Terminado! Teste, agora, o menu com o seguinte comando:
 ```
 ./menufm.sh
 ```
