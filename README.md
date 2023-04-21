@@ -26,7 +26,7 @@
 
 
 ### ⚙️ Instalação 
-#### 1 - Obter o menu:
+#### 1 - 📥 Obter o menu:
 ```
 cd
 ```
@@ -36,11 +36,11 @@ cd /home/pi
 ```
 wget https://raw.githubusercontent.com/HamTetra-CT/menu-svxlink/main/menutetra.sh
 ```
-#### 2 - Tornar o script executável:
+#### 2 - 🚦 Tornar o script executável:
 ```
 sudo chmod +x /home/pi/menutetra.sh
 ```
-#### 3 - Terminado! Teste, agora, o menu com o seguinte comando:
+#### 3 - ✅ Terminado! Teste, agora, o menu com o seguinte comando:
 ```
 ./menutetra.sh
 ```
@@ -63,7 +63,7 @@ sudo chmod +x /home/pi/menutetra.sh
 
 
 ### ⚙️ Instalação 
-#### 1 - Obter o menu:
+#### 1 - 📥 Obter o menu:
 ```
 cd
 ```
@@ -73,7 +73,7 @@ cd /home/pi
 ```
 wget https://raw.githubusercontent.com/HamTetra-CT/menu-svxlink/main/menufm.sh
 ```
-#### 2 - Tornar o script executável:
+#### 2 - 🚦 Tornar o script executável:
 ```
 sudo chmod +x /home/pi/menufm.sh
 ```
