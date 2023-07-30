@@ -52,7 +52,7 @@ sudo systemctl start svxlink;;
 5)
 sudo alsamixer;;
 6)
-systemctl stop svxlink
+sudo systemctl stop svxlink
 cd /home/pi/svxlink/src/build/
 sudo make clean
 sudo git pull
