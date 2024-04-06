@@ -16,13 +16,14 @@
       - [x] Reiniciar
       - [ ] Actualizar 
       - [x] Acesso ao alsamixer
- - Ações específicas ao SVXLink tetra-contrib: 
+ - Ações específicas ao SVXLink tetra-contrib:
+      - [x] Consultar o log SVXLink em tempo real 🆕 
       - [x] Editar ficheiro "svxlink.conf" 
       - [x] Editar ficheiro "TetraLogic.conf" 
       - [x] Editar ficheiro "tetra_users.json" 
       - [x] Actualizar automaticamente o ficheiro "tetra_users.json"  
       - [x] Actualizar SVXLink (com a versão tetra-contrib)
-      - [x] Parar & Reiniciar o processo
+      - [x] Parar & reiniciar SVXLink
 
 
 ### ⚙️ Instalação 
