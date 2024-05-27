@@ -55,7 +55,8 @@ sudo chmod +x /home/pi/menutetra.sh
       - [x] Reiniciar
       - [ ] Actualizar 
       - [x] Acesso ao alsamixer
- - Ações específicas ao SVXLink: 
+ - Ações específicas ao SVXLink:
+      - [x] Consultar o log SVXLink em tempo real 🆕 
       - [x] Editar ficheiro "svxlink.conf" 
       - [x] Editar ficheiro "RepeaterLogic.tcl" 
       - [x] Editar ficheiro "Logic.tcl"  
