@@ -17,7 +17,7 @@ show_msg() {
 }
 
 update_tetra_users() {
-    URL="https://selfcare.hamtetra.pt/tetra_users.json"
+    URL="https://raw.githubusercontent.com/HamTetra-CT/users_update/main/tetra_users.json"
     TARGET="/etc/svxlink/tetra_users.json"
     TMP=$(mktemp)
     
